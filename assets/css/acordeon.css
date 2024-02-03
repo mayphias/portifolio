@@ -1,0 +1,71 @@
+.acordeon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 1rem;
+    transition: .25s;
+}
+
+.acordeon .arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.acordeon .arrow h3{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.acordeon.open,
+.acordeon:hover{
+    background-color: #9197AE;
+    border-color: #9197AE;
+}
+
+.acordeon .arrow:hover{
+    cursor: pointer;
+
+}
+
+.acordeon .arrow::after{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/assets/icons/arrow.svg);
+    transition: .25s;
+}
+
+.acordeon.open .arrow::after{
+    transform: rotate(180deg);
+}
+
+.acordeon .content{
+    display: none;
+}
+
+.acordeon .content{
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.acordeon.open .content{
+    display: block;
+    padding: 0 1rem 1rem 2rem;
+    height: 100%;
+    opacity: 1;
+}

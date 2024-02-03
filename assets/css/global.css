@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", "Sans-serif";
+}
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url("../fonts/NeueMachina-Regular.otf");
+}
+
+body{
+    
+    background-color: #000F08;
+    color: white;
+}
+
+a{
+    color: #ffff;
+     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.main{
+    margin: 1rem;
+    padding: .5rem;
+    border: 1px solid #ffff;
+    border-radius: .5rem;
+}
+
+
+.img-bottom{
+    content: '';
+    background-image: url(/assets/img/background/degrade-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: -35%;
+    position: fixed;
+    z-index: -1;
+    display: inline-block;
+    width: 120vw;
+    height: 90vw;
+    transform: rotate(270deg);
+}
+
+
+.main::before{
+    content: '';
+    background-image: url(/assets/img/background/degrade-1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+    display: inline-block;
+    width: 120vw;
+    height: 70vw;
+    
+}
+
+.main::after{
+    content: '';
+    background-image: url(/assets/img/background/degrade-1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+    display: inline-block;
+    width: 100vw;
+    height: 50vw;
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
