@@ -34,36 +34,27 @@
     <main class="main">
       <header class="header">
         <!-- informações iniciais ----------------------------------------------------------------------- -->
-        <img src="./assets/img/leo_foto.jpg" alt="Leonardo" class="photo" />
+        <img class="profile photo" src="/assets/icons/person-button.svg" alt="Leonardo" />
 
-        <h1 class="title">Olá, <br />eu sou Leonardo S. Oliveira</h1>
+        <h1 class="title">
+          Olá, <br />eu sou <span class="profile name"> Loading...</span>
+        </h1>
         <div class="information">
-          <p class="job">
-            <a
-              href="https://www.linkedin.com/in/leonardo-oliveira-9b3102223/"
-              target="_blank"
-            >
-              Dev Jr.
-            </a>
+          <a
+            href="https://www.linkedin.com/in/leonardo-oliveira-9b3102223/"
+            target="_blank"
+          >
+            <p class="job profile">Loading...</p>
+          </a>
+          <p class="location profile">
+              Loading...
           </p>
-          <p class="location">
-            <a href="https://maps.google.com/maps?q=22471150" target="_blank">
-              Rio de Janeiro - BR
-            </a>
-          </p>
-          <p class="location">
-            <a href="https://maps.google.com/maps?q=03758040" target="_blank">
-              São Paulo - BR
-            </a>
-          </p>
-          <p class="whatsapp">
-            <a href="https://wa.me/5521994234813" target="_blank"
-              >(11) 99423-4813</a
-            >
-          </p>
-          <p class="email">
-            <a href="mailto:leo.oliv.sp@gmail.com"> leo.oliv.sp@gmail.com </a>
-          </p>
+          <a href="" target="_blank">
+            <p class="whatsapp profile phone">Loading...</p>
+          </a>
+          <a href="mailto:leo.oliv.sp@gmail.com">
+            <p class="profile email">Loading...</p>
+          </a>
         </div>
       </header>
       <!-- Sanfonas ------------------------------------------------------------------------------------- -->
@@ -74,73 +65,14 @@
           <div class="skills">
             <section class="tools">
               <h4>Habilidades profissionais:</h4>
-              <ul>
-                <li>
-                  <img
-                    src="/assets/icons/habilities/html.svg"
-                    alt="html5"
-                    title="html5"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/icons/habilities/css.svg"
-                    alt="css"
-                    title="css"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/icons/habilities/python.svg"
-                    alt="python"
-                    title="python"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/icons/habilities/js.svg"
-                    alt="javaScript"
-                    title="javaScript"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/icons/habilities/java.svg"
-                    alt="java"
-                    title="java"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/icons/habilities/git.svg"
-                    alt="git"
-                    title="git"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/icons/habilities/cloud.svg"
-                    alt="googleCloud"
-                    title="googleCloud"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/icons/habilities/linux.svg"
-                    alt="linux-bash"
-                    title="linux-bash"
-                  />
-                </li>
+              <ul class="profile skills hardSkills">
+                <li>Loading...</li>
               </ul>
             </section>
             <section class="personal">
               <h4>habilidades pessoais:</h4>
-              <ul>
-                <li>Facilidade de comunicação</li>
-                <li>Organização</li>
-                <li>Trabalho em equipe</li>
-                <li>Flexibilidade</li>
-              </ul>
+              <ul class="profile skills softSkills">
+                <li>Loading...</li>
             </section>
           </div>
         </div>
@@ -149,11 +81,8 @@
       <section class="acordeon open">
         <button class="arrow" type="button"><h3>Languages</h3></button>
         <div class="content">
-          <ul class="languages">
-            <li>Português</li>
-            <li>Inglês</li>
-            <li>Francês</li>
-            <li>Espanhol</li>
+          <ul class="languages profile">
+            <li>Loading...</li>
           </ul>
         </div>
       </section>
@@ -166,7 +95,7 @@
       <section class="acordeon open">
         <button class="arrow" type="button"><h3>Portfolio</h3></button>
         <div class="content">
-          <ul class="portfolio">
+          <ul class="portfolio profile">
             <li>
               <h4 class="title github">Pokedex</h4>
               <a href="https://github.com/mayphias/pokedex" target="_blank">
@@ -180,21 +109,8 @@
       <section class="acordeon open">
         <button class="arrow" type="button"><h3>Experience</h3></button>
         <div class="content">
-          <ul class="experience">
-            <li>
-              <h3 class="expTitle">Trabalhos fora da área de TI</h3>
-              <span class="period">2016-2023</span>
-              Trabalhos avulsos e diversos, como ajudante de pedreiro, Uber,
-              ajudante de restauração
-            </li>
-            <li>
-              <h3 class="expTitle">Estágio compasso UOL</h3>
-              <span class="period">2022-2022</span>
-              <p class="expText">
-                Estágio para aprender e desenvolver habilidades de QA em
-                ambiente ágil SCRUM, com Postman.
-              </p>
-            </li>
+          <ul class="experience profile">
+            <li>Loading...</li>
           </ul>
         </div>
       </section>
@@ -206,5 +122,7 @@
 
     <!-- scripts -->
     <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/main.js"></script> 
+    <!-- main.js adds majority of the data from the profile.json -->
   </body>
 </html>

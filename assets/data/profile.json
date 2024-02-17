@@ -1,0 +1,82 @@
+{
+  "name": "leonardo da Silva Oliveira",
+  "photo": "https://avatars.githubusercontent.com/u/70672713?s=400",
+  "job": "Dev Jr.",
+  "location": "Rio de Janeiro - RJ",
+  "phone": "(11) 99423-4813",
+  "email": "leo.oliv.sp@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "JavaScript",
+        "logo": "/assets/icons/habilities/js.svg"
+      },
+      {
+        "name": "Java",
+        "logo": "/assets/icons/habilities/java.svg"
+      },
+      {
+        "name": "html",
+        "logo": "/assets/icons/habilities/html.svg"
+      },
+      {
+        "name": "css",
+        "logo": "/assets/icons/habilities/css.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "/assets/icons/habilities/python.svg"
+      },
+      {
+        "name": "Git",
+        "logo": "/assets/icons/habilities/git.svg"
+      },
+      {
+        "name": "Google Cloud",
+        "logo": "/assets/icons/habilities/cloud.svg"
+      },
+      {
+        "name": "Linux/Bash",
+        "logo":"/assets/icons/habilities/linux.svg"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "facilidade de comunicação",
+      "Organização",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (avançado)",
+    "Espanhol (intermediário)",
+    "Francês (iniciante)"
+  ],
+  "portfolio": [
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+      "url": "https://github.com/mayphias/pokedex",
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "url": "https://github.com/mayphias/portifolio",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Estágio compasso UOL",
+      "period": "2022-2022",
+      "description": "Estágio para aprender e desenvolver habilidades de QA em ambiente ágil SCRUM, com Postman."
+    },
+    {
+      "name": "Trabalhos fora da área de TI",
+      "period": "2016-2023",
+      "description": "Trabalhos avulsos e diversos, como ajudante de pedreiro, Uber, ajudante de restauração e etc."
+    }
+  ]
+}
