@@ -1,0 +1,69 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .education li {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+  
+  .institute-info {
+    display: flex;
+    align-items: center; /* Align date and state vertically */
+  }
+  
+  .institute-info h3 {
+    flex: 1; /* Make institute name take remaining space */
+  }
+  
+  .institute-info .date,
+  .institute-info .state {
+    margin-right: 0.5rem; /* Add space between elements */
+  }
+
+  .institute-info .state{
+    text-decoration: underline;
+  }
+  
+  .title-description {
+    margin-top: 1rem; /* Add space between title and description */
+  }
+  
+  .education .title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education p {
+    text-align: justify;
+    text-wrap: wrap;
+  }
+  
+  .education li h3.institute::before {
+    content: "";
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/assets/icons/education.svg);
+    margin-right: 0.5rem;
+    transition: 0.5s;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .education li h3.institute::before {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  

@@ -37,7 +37,7 @@
       },
       {
         "name": "Linux/Bash",
-        "logo":"/assets/icons/habilities/linux.svg"
+        "logo": "/assets/icons/habilities/linux.svg"
       }
     ],
     "softSkills": [
@@ -54,6 +54,36 @@
     "Inglês (avançado)",
     "Espanhol (intermediário)",
     "Francês (iniciante)"
+  ],
+  "education": [
+    {
+      "institute": "SENAC",
+      "date": "2022-2024",
+      "state": "Cursando",
+      "course": "Análise e desenvolvimento de sistemas",
+      "description": "O curso de Análise e Desenvolvimento de Sistemas é uma graduação em Tecnologia da Informação que prepara os alunos para projetar, desenvolver e manter sistemas computadorizados. "
+    },
+    {
+      "institute": "UFRJ",
+      "date": "2015-2020",
+      "state": "Interropido",
+      "course": "Biofísica",
+      "description": "O curso de graduação em Biofísica oferece uma abordagem interdisciplinar, combinando os princípios da biologia e da física para compreender os fenômenos biológicos por meio de métodos quantitativos. Os alunos exploram os fundamentos da biologia molecular, bioquímica e física, preparando-se para carreiras em pesquisa, saúde, biotecnologia e outras áreas relacionadas."
+    },
+    {
+      "institute": "Colégio Pedro II",
+      "date": "2015",
+      "state": "Concluído",
+      "course": "Ensino técnico em meio ambiente",
+      "description": "O curso técnico em Meio Ambiente capacita os alunos a compreenderem os desafios ambientais atuais e a aplicarem soluções sustentáveis. Eles estudam temas como gestão ambiental, legislação, conservação de recursos naturais e impactos ambientais, preparando-se para trabalhar em áreas como consultoria ambiental, fiscalização, educação ambiental e gestão de projetos sustentáveis."
+    },
+    {
+      "institute": "Microcamp",
+      "date": "2013",
+      "state": "Concluído",
+      "course": "Técnico em Hardware",
+      "description": "O curso técnico em Hardware, Montagem e Desmontagem de Microcomputadores capacita os alunos a entenderem os componentes físicos de um computador e a realizarem sua montagem e desmontagem de forma eficiente e segura. Eles adquirem habilidades práticas em identificação de peças, instalação de hardware, resolução de problemas e manutenção preventiva, preparando-se para atuar como técnicos de informática, suporte técnico ou empreendedores na área de serviços de computação."
+    }
   ],
   "portfolio": [
     {

@@ -25,9 +25,11 @@
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="/assets/css/acordeon.css" />
     <link rel="stylesheet" href="/assets/css/languages.css" />
+    <link rel="stylesheet" href="/assets/css/education.css">
     <link rel="stylesheet" href="/assets/css/portfolio.css" />
     <link rel="stylesheet" href="/assets/css/experience.css" />
     <link rel="stylesheet" href="/assets/css/skills.css" />
+    <link rel="stylesheet" href="/assets/css/footer.css">
   </head>
 
   <body>
@@ -89,19 +91,19 @@
       <!-- Educação -->
       <section class="acordeon open">
         <button class="arrow" type="button"><h3>Education</h3></button>
-        <div class="content"></div>
+        <div class="content">
+          <ul class="education profile">
+           <li>Loading...</li>
+          </ul>
+          
+        </div>
       </section>
       <!-- portifólio -->
       <section class="acordeon open">
         <button class="arrow" type="button"><h3>Portfolio</h3></button>
         <div class="content">
           <ul class="portfolio profile">
-            <li>
-              <h4 class="title github">Pokedex</h4>
-              <a href="https://github.com/mayphias/pokedex" target="_blank">
-                https://github.com/mayphias/pokedex</a
-              >
-            </li>
+            <li>Loading...</li>
           </ul>
         </div>
       </section>
@@ -114,15 +116,22 @@
           </ul>
         </div>
       </section>
+      <!-- footer --------------------------------------------------------- -->
+      <footer>
+        <p class="footerNote">Made with the help of:</p>
+        <a href="https://web.dio.me/" target="_blank">
+          <img src="/assets/icons/dio.svg" alt="Dio" title="Dio">
+        </a>
+      </footer>
     </main>
 
-    <!-- added in css -->
+    <!-- added in css global-->
     <div class="img-bottom"></div>
     <!-- --------------------------- -->
 
     <!-- scripts -->
     <script src="/assets/js/acordeon.js"></script>
     <script src="/assets/js/main.js"></script> 
-    <!-- main.js adds majority of the data from the profile.json -->
+    <!-- main.js (Loading...) adds majority of the data from the profile.json -->
   </body>
 </html>
