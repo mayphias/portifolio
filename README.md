@@ -1,6 +1,7 @@
 ## Portifolio de Leonardo
 
 ![](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) ![](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![](https://img.shields.io/static/v1.svg?label=Version&message=1.0&color=blue)
 ### Bem-vindo ao meu portfólio digital! Este site é uma apresentação do meu trabalho, habilidades e experiência. Aqui você encontrará informações sobre mim e meus projetos profissionais.
 
 ## Seções do portifolio
